@@ -51,7 +51,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright:
+  # copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: true
@@ -271,7 +271,7 @@ android_chrome_color: "#222"
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: false
-  image:
+  # image:
 
 # Code Highlight theme
 # Available value:
@@ -296,7 +296,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host:
+  # host:
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -307,33 +307,33 @@ font:
   global:
     external: true
     family: Lato
-    size:
+    # size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
-    size:
+    # family:
+    # size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    # family:
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    # family:
+    # size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family: Menlo, Monospace
-    size:
+    # size:
 
 
 # ---------------------------------------------------------------
@@ -370,8 +370,8 @@ disqus:
 # changyan
 changyan:
   enable: false
-  appid:
-  appkey:
+  # appid:
+  # appkey:
 
 
 # Valine.
@@ -406,13 +406,13 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
-  github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  # language: # Force language, or auto switch by theme
+  # github_user: # MUST HAVE, Your Github ID
+  # github_repo: # MUST HAVE, The repo you use to store Gitment comments
+  # client_id: # MUST HAVE, Github client id for the Gitment
+  # client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  # proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  # redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
 # Baidu Share
 # Available value:
@@ -497,10 +497,10 @@ duoshuo_info:
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
   enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  # app_id:       #<app_id>
+  # fb_admin:     #<user_id>
+  # like_button:  #true
+  # webmaster:    #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
@@ -515,7 +515,7 @@ facebook_comments_plugin:
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
   enable:       false
-  app_id:       #<app_id>
+  # app_id:       #<app_id>
   like:         true
   comments:     true
   num_of_posts: 10
@@ -524,7 +524,7 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
+  # id:     #<app_id>
   color:  fc6423
 # ---------------------------------------------------------------
 
@@ -532,17 +532,17 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  # app_id: #<app_id>
+  # app_key: #<app_key>
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
 # visit https://firebase.google.com/docs/firestore/ to get more information about firestore
 firestore:
   enable: false
-  collection: articles #required, a string collection name to access firestore database
-  apiKey: #required
-  projectId: #required
+  # collection: articles #required, a string collection name to access firestore database
+  # apiKey: #required
+  # projectId: #required
   bluebird: false #enable this if you want to include bluebird 3.5.1(core version) Promise polyfill
 
 # Show PV/UV of the website/page with busuanzi.
@@ -553,15 +553,15 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  # site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  # site_pv_footer:
   # custom pv span for one page only
   page_pv: true
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  # page_pv_footer:
 
 
 # Tencent analytics ID
@@ -586,7 +586,7 @@ calendar:
   orderBy: startTime
   offsetMax: 24
   offsetMin: 4
-  timeZone:
+  # timeZone:
   showDeleted: false
   singleEvents: true
   maxResults: 250
@@ -728,80 +728,80 @@ vendors:
   _internal: lib
 
   # Internal version: 2.1.3
-  jquery:
+  # jquery:
 
   # Internal version: 2.1.5
   # See: http://fancyapps.com/fancybox/
-  fancybox:
-  fancybox_css:
+  # fancybox:
+  # fancybox_css:
 
   # Internal version: 1.0.6
   # See: https://github.com/ftlabs/fastclick
-  fastclick:
+  # fastclick:
 
   # Internal version: 1.9.7
   # See: https://github.com/tuupola/jquery_lazyload
-  lazyload:
+  # lazyload:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity:
+  # velocity:
 
   # Internal version: 1.2.1
   # See: http://VelocityJS.org
-  velocity_ui:
+  # velocity_ui:
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser:
+  # ua_parser:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome:
+  # fontawesome:
 
   # Internal version: 1
   # https://www.algolia.com
-  algolia_instant_js:
-  algolia_instant_css:
+  # algolia_instant_js:
+  # algolia_instant_css:
 
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
   # Or use direct links below:
   # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
   # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
-  pace:
-  pace_css:
+  # pace:
+  # pace_css:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest:
+  # canvas_nest:
 
   # three
-  three:
+  # three:
 
   # three_waves
   # https://github.com/jjandxa/three_waves
-  three_waves:
+  # three_waves:
 
   # three_waves
   # https://github.com/jjandxa/canvas_lines
-  canvas_lines:
+  # canvas_lines:
 
   # three_waves
   # https://github.com/jjandxa/canvas_sphere
-  canvas_sphere:
+  # canvas_sphere:
 
   # Internal version: 1.0.0
   # https://github.com/zproo/canvas-ribbon
-  canvas_ribbon:
+  # canvas_ribbon:
 
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
-  han:
+  # han:
 
   # needMoreShare2
   # https://github.com/revir/need-more-share2
-  needMoreShare2:
+  # needMoreShare2:
 
 
 # Assets
